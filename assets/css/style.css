@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Yeseva";
+  src: url(./../fonts/YesevaOne-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-Rg";
+  src: url(./../fonts/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url(./../fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+main {
+  padding: 5%;
+}
+body {
+  background-image: url(./../images/waves.jpg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position: center;
+  height: 100vh;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Yeseva";
+  font-size: 2rem;
+  text-shadow: 2px 2px 2px rgb(255, 255, 255);
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 2%;
+  color: rgb(152, 78, 79);
+}
+
+h2 {
+  font-family: "Yeseva";
+  font-size: 1.5em;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  color: white;
+}
+p {
+  font-family: "Montserrat";
+  font-weight: 200;
+  font-size: 14px;
+  padding: 1em;
+  color: white;
+}
+
+article {
+  background-color: rgba(19, 77, 108, 0.856);
+  padding: 2%;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 5rem;
+}
